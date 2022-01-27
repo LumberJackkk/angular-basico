@@ -1,0 +1,20 @@
+<h1>{{title}}</h1>
+
+
+<dl>
+    <td>Nombre: </td>
+    <dd>{{nombre}}</dd>
+    <td>Edad: </td>
+    <dd>{{edad}}</dd>
+    <td>Función: </td>
+    <dd>{{obtenerNombre()}}</dd>
+    <td>Capitalizado: </td>
+    <dd>{{upperLetter}}</dd>
+</dl>
+
+<button (click)="otherHero()"> <!--One way data binding-->
+    Other Hero
+</button>
+<button (click)="ageChange()">
+    Age change
+</button>
